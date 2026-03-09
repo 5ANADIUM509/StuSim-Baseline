@@ -1,0 +1,22 @@
+{
+  "max_iterations": 3,
+  "max_epochs_per_iter": 2,
+  "learning_rate": 0.0002,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "effective_batch_size": 16,
+  "max_seq_len": 2048,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "train_top_n": 2000,
+  "best_val_accuracy": 0.385,
+  "best_model_path": "/root/autodl-tmp/trained_model/iter2_best",
+  "base_model": "/root/autodl-tmp/models/Qwen/Qwen2.5-3B-Instruct"
+}

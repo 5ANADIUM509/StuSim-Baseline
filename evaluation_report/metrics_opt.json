@@ -1,0 +1,45 @@
+{
+  "base_model": {
+    "label": "SFT前基座",
+    "total": 500,
+    "valid": 499,
+    "overall_accuracy": 0.28256513026052105,
+    "overall_hits": 141,
+    "overall_total": 499,
+    "correct_subset_accuracy": 0.284,
+    "correct_subset_hits": 71,
+    "correct_subset_total": 250,
+    "incorrect_subset_accuracy": 0.28112449799196787,
+    "incorrect_subset_hits": 70,
+    "incorrect_subset_total": 249,
+    "correct_answer_accuracy": 0.26452905811623245
+  },
+  "ft_model_optimized": {
+    "label": "SFT后优化版",
+    "total": 500,
+    "valid": 500,
+    "overall_accuracy": 0.234,
+    "overall_hits": 117,
+    "overall_total": 500,
+    "correct_subset_accuracy": 0.26,
+    "correct_subset_hits": 65,
+    "correct_subset_total": 250,
+    "incorrect_subset_accuracy": 0.208,
+    "incorrect_subset_hits": 52,
+    "incorrect_subset_total": 250,
+    "correct_answer_accuracy": 0.242
+  },
+  "ft_model_previous": {
+    "overall_accuracy": 0.3477366255144033,
+    "correct_subset_accuracy": 0.5286885245901639,
+    "incorrect_subset_accuracy": 0.1652892561983471,
+    "correct_answer_prediction_accuracy": 0.5061728395061729
+  },
+  "optimization_config": {
+    "incorrect_ratio": 0.95,
+    "incorrect_loss_multiplier": 4.0,
+    "train_subset": 2000,
+    "iterations": 3
+  },
+  "timestamp": "2026-03-10T03:13:58.564000"
+}
