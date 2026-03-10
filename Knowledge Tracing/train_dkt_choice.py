@@ -1,4 +1,4 @@
-# train_dkt_choice_plot.py
+# python train_dkt_choice.py --data train_dataset.filtered.jsonl
 # ------------------------------------------------------------
 # 用 DKT(LSTM) 做选择题 Option Tracing 基线：
 # 输入：每个学生最近 window=30 次交互（题号 + 学生选项 + 可选是否做对）
@@ -444,3 +444,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
