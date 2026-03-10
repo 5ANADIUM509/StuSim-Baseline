@@ -32,3 +32,13 @@
 ②按学生分组，给question_id 预测下一题做对还是做错 准确率：71.85%  AUC：78.42%
 
 ③按题号分组，给question_id 预测下一题做对还是做错 准确率：52.28%  AUC：52.85%
+
+
+>IRT
+## 实验结果
+数据集中被试者的能力分布和题目难度发布均符合正态分布
+<img width="1000" height="600" alt="user_ability_dist" src="https://github.com/user-attachments/assets/58625e67-0147-43ca-8578-b52a6acbd334" />
+<img width="1000" height="600" alt="item_difficulty_dist" src="https://github.com/user-attachments/assets/738f8604-7e82-49b3-ab64-c704afbde27b" />
+
+
+
