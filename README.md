@@ -20,9 +20,13 @@
 >Knowledge Tracing baseline
 ## 实验结果
 输入：时间序列（对学生）  
+
      每一步  （q_t,r_t)
+     
       q_t :第t次做的题  question_id/skill_id       r_t：做对(1)还是做错(0)
+
 预测：下一题做对还是做错（random 50%）
+
 ①按学生分组，给question_id 预测下一题选什么  准确率：54.37%
 
 ②按学生分组，给question_id 预测下一题做对还是做错 准确率：71.85%  AUC：78.42%
