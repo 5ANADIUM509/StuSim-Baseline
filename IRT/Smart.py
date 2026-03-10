@@ -12,7 +12,7 @@ import time
 # ==========================================
 # 配置参数
 # ==========================================
-DEEPSEEK_API_KEY = "sk-7b605cf119714ec4b429db287fd51073" # 请替换为您的 DeepSeek API Key
+DEEPSEEK_API_KEY = "DeepSeek API Key" # 请替换为您的 DeepSeek API Key
 INPUT_DATA_FILE = "top20_users_records.jsonl"
 CONCURRENCY_LIMIT = 20  # 最大并发请求数，根据您的 API 限流情况可调大或调小
 
@@ -276,4 +276,5 @@ async def main():
 
 if __name__ == "__main__":
     # 使用 asyncio 运行主函数
+
     asyncio.run(main())
